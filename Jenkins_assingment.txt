@@ -1,0 +1,105 @@
+Jenkins $ pwd
+/root
+Jenkins $ mkdir jenkinsassingment
+Jenkins $ 
+Jenkins $ 
+Jenkins $ pwd
+/root
+Jenkins $ ls
+Dockerfile   GIT_ASSINGMENT  jenkinsassingment	master.txt   public.txt  urgent.txt
+feature.txt  index.html      main.txt		public2.txt  snap
+Jenkins $ cd jenkinsassingment/
+Jenkins $ 
+Jenkins $ 
+Jenkins $ pwd
+/root/jenkinsassingment
+Jenkins $ 
+Jenkins $ 
+Jenkins $ ls -la
+total 8
+drwxr-xr-x  2 root root 4096 Jan  8 18:38 .
+drwx------ 11 root root 4096 Jan  8 18:38 ..
+Jenkins $ 
+enkins $ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /root/jenkinsassingment/.git/
+Jenkins $ 
+Jenkins $ 
+Jenkins $ ls -la
+total 12
+drwxr-xr-x  3 root root 4096 Jan  8 18:42 .
+drwx------ 11 root root 4096 Jan  8 18:38 ..
+drwxr-xr-x  7 root root 4096 Jan  8 18:42 .git
+Jenkins $ 
+Jenkins $ git branch
+Jenkins $ git checkout
+fatal: You are on a branch yet to be born
+Jenkins $ git status 
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+Jenkins $ touch master
+Jenkins $ ls
+master
+Jenkins $ rm master 
+Jenkins $ 
+Jenkins $ nano master.txt
+Jenkins $ nano bb
+Jenkins $ cat bb
+nn
+
+Jenkins $ cat master.txt 
+hello
+
+This 
+
+is 
+
+Master
+
+File
+Jenkins $ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bb
+	master.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+Jenkins $ git add .
+Jenkins $ git commit -m "new added"
+[master (root-commit) f86743f] new added
+ 2 files changed, 11 insertions(+)
+ create mode 100644 bb
+ create mode 100644 master.txt
+Jenkins $ 
+Jenkins $ 
+Jenkins $ git branch
+* master
+Jenkins $
+Jenkins $ git branch develop
+Jenkins $ 
+Jenkins $ 
+Jenkins $ git branch
+  develop
+* master
+Jenkins $ 
+Jenkins $ 
+Jenkins $ 
+
+
+
